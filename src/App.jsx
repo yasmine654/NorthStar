@@ -15,6 +15,7 @@ function App() {
     <>
    <BrowserRouter>
     <NavBar/>
+        yasmine techa
        <Routes>
        
        <Route path='/' element={<Home/>}/>
