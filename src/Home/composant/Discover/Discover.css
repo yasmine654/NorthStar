@@ -1,0 +1,49 @@
+.Discover{
+ /* background-color: aqua; */
+ height: 170vh;
+ padding: 20px 30px;
+ display: flex;
+ flex-direction: column;
+ gap: 50px;
+}
+.Discover-Title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Discover-Display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+.Discover-Ul{
+    /* background-color: blueviolet; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    width: 100%;
+    height: 100%;
+}
+.Discover-Ul-Img{
+    /* background-color: rgb(97, 136, 136); */
+    width: 70%;   
+    height: 70%; 
+    object-fit: contain; 
+    
+}
+.Discover-Ul li{
+    /* background-color: brown; */
+    padding: 0px 5px;
+    padding-top:10PX;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+    gap: 15px;
+}
+
+

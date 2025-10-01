@@ -1,0 +1,36 @@
+.Footer{
+    background-color: blue;
+    height: 80vh;
+}
+.Footer-top{
+    background-color: aquamarine;
+    height: 80%;
+}
+.Footer-ul{
+    background-color: blueviolet;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+    padding: 10px 63px;
+}
+.Footer-ul li{
+    background-color: azure;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    padding: 15px;
+}
+.Footer-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Footer-list h4{font-weight: 300;}
+.Footer-bottom{
+    background-color: brown;
+    height: 20%
+}
+

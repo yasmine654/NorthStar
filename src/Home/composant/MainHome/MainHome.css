@@ -1,0 +1,38 @@
+.MainHome{
+    background-image: url('/imgHome/img_1.png');
+    height: 93vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;   
+}
+
+.MainHome-title{ 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    width: 35%;
+    align-items: center;
+}
+
+.MainHome-title h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1;
+    color: white;
+}
+
+.MainHome-title button{
+    width: fit-content;
+    padding: 10px 30px;
+    font-size: 20Px;
+    border: solid 5px white;
+    background-color: transparent;
+    font-weight: 500;
+    color: white;
+}
+
