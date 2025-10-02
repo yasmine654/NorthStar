@@ -1,0 +1,89 @@
+.SignIn{
+   /* background-color: antiquewhite; */
+   height: 93Vh;
+   display: flex;
+   padding:20px 50px;
+   gap: 80px;
+}
+
+.Inscription{
+   /* background-color: aqua; */
+   height:100%;
+   width: 70%;
+   display: flex;
+   flex-direction: column;
+}
+.Inscription-Text{
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.Inscription-Text p{font-size: 15px;}
+.Inscription-Name{
+    /* background-color: blue; */
+    padding-top: 40Px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20PX;
+}
+.Inscription-Name form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10Px;
+}
+.Inscription-Name input{
+    height: 50px;
+    width: 100%;
+    border: solid 1px rgb(192, 187, 187);
+}
+.Inscription-Name label{font-size: 15px;}
+.Inscription-Message{
+    /* background-color: blueviolet; */
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    height: 40%;
+    gap: 10px;
+}
+.Message-Input{
+    height: 100%;
+    width: 100%;
+    border: solid 1px rgb(192, 187, 187);
+}
+.Inscription button{
+    background-color: #024E82;
+    color: white;
+    height: 60px;
+    width: 170px;
+    margin-top: 20px;
+    font-size:15px ;
+}
+
+
+.GetIn{
+    /* background-color: brown; */
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+    gap: 70px;
+}
+.GetIn-Visit{
+    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.GetIn-Touch{
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.GetIn h4{
+    /* color: rgb(192, 193, 193); */
+    font-size: 15Px;
+    font-weight: 400;
+}

@@ -1,0 +1,15 @@
+.MainContact{
+    /* background-color: aquamarine; */
+    background-image: url('/imgContact/contactImg.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;background-size: cover;
+    margin-bottom: 100px;
+    margin-top: 7vh;
+}
+.MainContact h1{
+    color: white;
+    font-weight: 400;
+    padding-top: 180px;
+    font-size: 50px;
+    padding-left: 50PX;
+}
