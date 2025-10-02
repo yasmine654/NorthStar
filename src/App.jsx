@@ -7,6 +7,8 @@ import Home from './Home/Home.jsx'
 import Footer from './Footer/Footer.jsx';
 import { ContextProvider } from './Context/Context.jsx';
 import CartPage from './CartPage/CartPage.jsx';
+import Contact from './Contact/Contact.jsx'
+
 
 
 function App() {
@@ -23,6 +25,7 @@ function App() {
        
        <Route path='/' element={<Home/>}/>
        <Route path='/about' element={<About/>}/>
+       <Route path='/contact' element={<Contact/>}/>
        
        
        
