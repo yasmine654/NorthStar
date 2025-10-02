@@ -1,27 +1,27 @@
 .Footer{
-    background-color: blue;
-    height: 80vh;
+    background-color: #FBFBFB;
+    height:70vh;
 }
 .Footer-top{
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     height: 80%;
 }
 .Footer-ul{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     width: 100%;
     height: 100%;
-    padding: 10px 63px;
+    padding: 10px 50px;
 }
 .Footer-ul li{
-    background-color: azure;
+    /* background-color: azure; */
     height: 90%;
     display: flex;
     flex-direction: column;
     gap: 25px;
-    padding: 15px;
+    padding: 15px 0px;
 }
 .Footer-list{
     display: flex;
@@ -29,8 +29,20 @@
     gap: 10px;
 }
 .Footer-list h4{font-weight: 300;}
-.Footer-bottom{
-    background-color: brown;
-    height: 20%
+.Footer-special input{
+    background-color: transparent;
+    width: 100%;
+    height: 30px;
+    border-bottom: solid 1px black;
 }
-
+.Footer-bottom{
+    /* background-color: brown; */
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+.PayPal{
+    height: 100%;
+}

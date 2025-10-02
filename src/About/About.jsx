@@ -1,15 +1,11 @@
-import Autre from './composant/Autre';
-import Test from './composant/Test'
+import MainAbout from './composant/MainAbout/MainAbout';
 
 
 function About(){
 
     return (
         <>
-        <Autre/>
-        <Test/>
-
-
+        <MainAbout/>
          </>
     )
 }

@@ -56,7 +56,22 @@ const Footer = () => {
             </ul>
 
         </div>
-        <div className="Footer-bottom"></div>
+        <div className="Footer-bottom">
+          <div className="F2020">
+            <h6>@ 2020 NorthStar eCommerce</h6>
+            <pre>Privacy Policy   Terms & Conditions</pre>
+
+          </div>
+          <div className="PayPal">
+            <ul>
+              <img src="/imgHome/Rectangle 13.png" />
+              <img src="/imgHome/Rectangle 14.png" />
+              <img src="/imgHome/Rectangle 15.png" />
+              <img src="/imgHome/Rectangle 16.png" />
+            </ul>
+          </div>
+
+        </div>
 
     </div>
   )

@@ -1,23 +1,32 @@
-.Discover{
- /* background-color: aqua; */
- height: 170vh;
- padding: 20px 30px;
- display: flex;
- flex-direction: column;
- gap: 50px;
-}
-.Discover-Title{
+.Sellers{
+    /* background-color: darkkhaki; */
+    height: 100vh;
+    padding: 0px 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 30px;
 }
-.Discover-Display{
+.Sellers-Title{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Sellers-Title h4{font-weight: 300;}
+.Sellers button{
+    background-color: #024E82;
+    color: white;
+    padding: 10px 30px;
+}
+.Sellers-Display{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100%;
 }
-.Discover-Ul{
+.Sellers-Ul{
     /* background-color: blueviolet; */
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -25,14 +34,14 @@
     width: 100%;
     height: 100%;
 }
-.Discover-Ul p{color: #024E82;}
-.Discover-Ul-Img{
+.Sellers-Ul p{color: #024E82;}
+.Sellers-Ul-Img{
     /* background-color: rgb(97, 136, 136); */
     width: 70%;   
     height: 70%; 
     object-fit: contain;  
 }
-.Discover-Ul li{
+.Sellers-Ul li{
     /* background-color: brown; */
     padding: 0px 5px;
     padding-top:10PX;
@@ -44,11 +53,10 @@
     height: 100%;
     gap: 15px;
 }
-.Discover-Ul-Text{
+.Sellers-Ul-Text{
     display: flex;
     flex-direction: column;
     gap: 10px;
 
 }
-
 

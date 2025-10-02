@@ -1,0 +1,31 @@
+.Servies{
+    /* background-color: rgb(177, 108, 24); */
+    height: 30vh;
+    margin-top: 30Px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Servies ul{
+    /* background-color: aqua; */
+    display: flex;
+    gap:40px;
+    width: 90%;
+}
+.Servies li{
+    /* background-color: brown; */
+    height: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding:50Px 0;
+}
+.Servies-img{
+    height: 30Px;
+}
+.servies-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.servies-text h5{font-weight: 300;}
