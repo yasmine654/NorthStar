@@ -5,6 +5,8 @@ import NavBar from './nav/NavBar.jsx'
 import About from './About/About.jsx'
 import Home from './Home/Home.jsx'
 import Footer from './Footer/Footer.jsx';
+import { ContextProvider } from './Context/Context.jsx';
+import CartPage from './CartPage/CartPage.jsx';
 
 
 function App() {
@@ -14,16 +16,20 @@ function App() {
 
     <>
    <BrowserRouter>
+   <ContextProvider>
     <NavBar/>
+    <CartPage/>
        <Routes>
        
        <Route path='/' element={<Home/>}/>
        <Route path='/about' element={<About/>}/>
        
-       </Routes>
-    <Footer/>
-
        
+       
+       </Routes>
+       <Footer/>
+
+       </ContextProvider>
    </BrowserRouter>
 
     </>

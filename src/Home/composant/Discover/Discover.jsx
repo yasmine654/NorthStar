@@ -1,8 +1,14 @@
 import './Discover.css'
-import { useEffect, useState } from "react";
+import { useEffect, useState, useContext} from "react";
+import { Context } from "../../../Context/Context.jsx";
+
 
 const Discover = () => {
+
   const [products, setProducts] = useState([]);
+
+  const { add } = useContext(Context);
+
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products?limit=8")
@@ -11,6 +17,8 @@ const Discover = () => {
       .catch(() => console.log("Erreur de chargement"))
   }, []);
 
+  
+
   return (
     <div className="Discover">
         
@@ -18,6 +26,7 @@ const Discover = () => {
         <h1>Discover NEW Arrivals</h1>
         <h3>Recently added shirts!</h3>
       </div>
+      
 
       <div className="Discover-Display">
         <ul className="Discover-Ul">
@@ -26,7 +35,10 @@ const Discover = () => {
               <img src={product.image} className="Discover-Ul-Img" alt={product.title}/>
               <div className="Discover-Ul-Text">
                 <h4>{product.title}</h4>
-                <p>${product.price}</p>
+                <div className="achat">
+                  <p>${product.price}</p>
+                  <img onClick={add} src="/imgHome/shopping-bag 1.png" className='achat-click'/>
+                </div>
               </div>
             </li>
           ))}

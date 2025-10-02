@@ -43,12 +43,29 @@
     text-align: center;
     height: 100%;
     gap: 15px;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.2);
+    border-radius: 10px;
 }
 .Discover-Ul-Text{
+    /* background-color: aqua; */
     display: flex;
     flex-direction: column;
     gap: 10px;
-
+    height: 70px;
+    justify-content:space-between ;
+    text-align: center;
+    width: 100%;
+}
+.achat{
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.achat-click{
+    cursor: pointer;
 }
 
 

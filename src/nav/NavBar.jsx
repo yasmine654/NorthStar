@@ -1,7 +1,10 @@
 import './NavBar.css'
 import { Link } from "react-router-dom";
+import { Context } from "../Context/Context.jsx";
+import { useContext } from 'react';
 
 const NavBar = () => {
+  const { count, toggleCart } = useContext(Context);
   return (
     <>
       <nav className="nav">
@@ -18,7 +21,10 @@ const NavBar = () => {
 
        <div className="icons">
         <img src="../imgHome/user 1.png" />
-        <img src="../imgHome/menu 1.png"  />
+        <div onClick={toggleCart} className="cart">
+          <div  className="num">{count}</div>
+        </div>
+        <img  src="../imgHome/menu 1.png"  />
        </div>
 
       </nav>
