@@ -3,6 +3,7 @@
     background-image: url('/imgAbout/backAbout.jpg');
     height: 50vh;
     background-repeat: no-repeat;background-size: cover;
+    margin-top: 7vh;
 }
 .MainAbout h1{
     color: white;

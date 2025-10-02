@@ -7,9 +7,9 @@
     justify-content: end;
     padding-right: 100px;
     background-repeat: no-repeat;
-    background-size: cover;   
+    background-size: cover; 
+    margin-top: 7vh;
 }
-
 .MainHome-title{ 
     display: flex;
     flex-direction: column;
