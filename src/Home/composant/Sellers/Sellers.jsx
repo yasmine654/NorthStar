@@ -30,7 +30,9 @@ function Sellers() {
           ))}
         </ul>
         </div>
-        <button>SHOP NOW</button>
+        <a href="#discover">
+          <button >SHOP NOW</button>
+        </a>
     </div>
   )
 }

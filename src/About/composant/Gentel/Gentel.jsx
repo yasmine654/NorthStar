@@ -1,4 +1,5 @@
 import './Gentel.css'
+import { Link } from "react-router-dom";
 
 function Gentel() {
     const gentels = [
@@ -10,7 +11,9 @@ function Gentel() {
         <ul className="Gentel-Ul">
             {gentels.map((index) => (
                 <li key={index}>
-                    <button>BUY NOW</button>
+                   <Link to="/#discover">
+                     <button>BUY NOW</button>
+                   </Link>
                 </li>
             ))}
         </ul>

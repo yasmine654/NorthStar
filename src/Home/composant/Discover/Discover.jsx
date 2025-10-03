@@ -9,6 +9,15 @@ const Discover = () => {
 
   const { add } = useContext(Context);
 
+   useEffect(() => {
+    if (window.location.hash === "#discover") {
+      const element = document.getElementById("discover");
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, []);
+
 
   useEffect(() => {
     fetch("https://fakestoreapi.com/products?limit=8")
@@ -20,7 +29,7 @@ const Discover = () => {
   
 
   return (
-    <div className="Discover">
+    <div  className="Discover">
         
       <div className="Discover-Title">
         <h1>Discover NEW Arrivals</h1>
@@ -28,7 +37,7 @@ const Discover = () => {
       </div>
       
 
-      <div className="Discover-Display">
+      <div id='discover' className="Discover-Display">
         <ul className="Discover-Ul">
           {products.map((product) => (
             <li key={product.id}>

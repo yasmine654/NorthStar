@@ -6,11 +6,13 @@ const MainHome = () => {
     <div className="MainHome">
         <div className="MainHome-title">
             <h1>STYLIST PICKS BEAT THE HEAT</h1>
-            <button >SHOP NOW</button>
+            <a href="#discover">
+              <button >SHOP NOW</button>
+            </a>
         </div>
     </div>
 
   )
 }
 
-export default MainHome
+export default MainHome 
