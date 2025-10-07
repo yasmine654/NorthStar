@@ -19,6 +19,7 @@
     background-color: #024E82;
     color: white;
     padding: 10px 30px;
+    cursor: pointer;
 }
 .Sellers-Display{
     display: flex;

@@ -24,7 +24,7 @@ const NavBar = () => {
         <div onClick={toggleCart} className="cart">
           <div  className="num">{count}</div>
         </div>
-        <img  src="../imgHome/menu 1.png"  />
+        <img  src="../imgHome/menu 1.png"/>
        </div>
 
       </nav>

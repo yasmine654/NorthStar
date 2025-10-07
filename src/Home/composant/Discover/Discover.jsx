@@ -46,7 +46,7 @@ const Discover = () => {
                 <h4>{product.title}</h4>
                 <div className="achat">
                   <p>${product.price}</p>
-                  <img onClick={add} src="/imgHome/shopping-bag 1.png" className='achat-click'/>
+                  <img onClick={() => add({ title: product.title, price: product.price })} src="/imgHome/shopping-bag 1.png" className='achat-click'/>
                 </div>
               </div>
             </li>
